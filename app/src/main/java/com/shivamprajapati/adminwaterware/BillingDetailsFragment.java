@@ -164,7 +164,7 @@ public class BillingDetailsFragment extends Fragment {
                                         map.put("cleaning", cleaningCharges.getText().toString().trim());
                                         map.put("visiting", visitingCharges.getText().toString().trim());
                                         map.put("total", total.getText().toString().trim());
-                                        FirebaseDatabase.getInstance().getReference().child("AdminNameHere").child("Bill").updateChildren(map);
+                                        FirebaseDatabase.getInstance().getReference().child("AnoopKumarPrajapati").child("Bill").updateChildren(map);
                                         SharedPref.saveSharedSettingsCleaningCharges(context,"cleaning",cleaningCharges.getText().toString());
                                         SharedPref.saveSharedSettingsVisitingCharges(context,"visiting",visitingCharges.getText().toString());
 

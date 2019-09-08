@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_pending"
+        android:icon="@drawable/ic_list_black_24dp"
+        android:title="Current Request" />
+
+    <item
+        android:id="@+id/navigation_partners"
+        android:icon="@drawable/ic_people_black_24dp"
+        android:title="Partners" />
+
+    <item
+        android:id="@+id/navigation_history"
+        android:icon="@drawable/ic_history_black_24dp"
+        android:title="History" />
+    <item
+        android:id="@+id/navigation_bill"
+        android:icon="@drawable/ic_attach_money_black_24dp"
+        android:title="Billing details" />
+
+    <item
+        android:id="@+id/navigation_notification"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="Notification"
+        android:titleCondensed="Notification"/>
+
+</menu>
